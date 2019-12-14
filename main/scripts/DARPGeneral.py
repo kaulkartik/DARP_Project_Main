@@ -6,7 +6,7 @@ import sys
 # appending the pyomo path to system's path variable 
 #sys.path.append('/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/scripts/d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages/pyomo/environ')
 
-sys.path.append("C:\\Users\\lenovo\\Anaconda3\\pkgs\\pyomo-5.6.8-py37_0\Lib\\site-packages\\pyomo")
+sys.path.append("C:\\Users\\lenovo\\Anaconda3\\pkgs\\pyomo-5.6.8-py37_0\\Lib\\site-packages\\pyomo")
 
 # since we have included pyomo in the sys path
 # we are importing the all files from pyomo
@@ -20,8 +20,8 @@ model = AbstractModel()
 #path = "C:\\Users\\tr930605\\DARP Model\\DARP Input Files\\"
 # the path is mac specific and chnage  the path
 # format to above if the run machine is windows
-path ='/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/resources/'
-
+#path ='/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/resources/'
+path ="E:\\DARP PROJECT\\DARP_Project_Main\\main\\resources\\"
 #dat_file = "/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/resources/"
 
 #Declare number of requests and number of PTUs and the Big M constant
