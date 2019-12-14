@@ -1,0 +1,41 @@
+## Build notes
+pip install --target=d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages pyomo
+
+pip install --target=d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages tornado
+
+pip install --target=d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages  matplotlib 1.3.1
+
+## Build Notes 
+
+Conda Installation 
+
+## Intro 
+* conda is a set of build tools 
+* download the conda package installer from anaconda website 
+* After installation we need to include conda in the system path
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+export PATH=/opt/anaconda2/bin:$PATH
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+* echo $PATH 
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+* this will print the path make sure that bin folder isappended .
+* Next make sure conda is recongnised in the system 
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+conda --version : this command should should show you version
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+* If this command fails then conda is not correctly installed in the
+* system
+* After you  need to install pyomo 
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+conda install -c conda-forge pyomo
+conda install -c conda-forge pyomo.extras
+conda install -c conda-forge ipopt coincbc glpk
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+* You can browse inside anaconda pakages folder 
+* to look for pyomo opt and environment folders
+* since you are importing them into your project
+cd /Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/scripts/d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages/pyomo/environ
