@@ -8,7 +8,7 @@
 
 ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★  
 ###### clone url. 
-* git clone https://github.com/kaulkartik/osheen_project_sample.git  
+* git clone https://github.com/kaulkartik/DARP_Project_Main.git
 
 ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★  
 

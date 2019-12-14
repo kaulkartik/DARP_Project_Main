@@ -4,7 +4,9 @@
 import sys
 
 # appending the pyomo path to system's path variable 
-sys.path.append('/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/scripts/d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages/pyomo/environ')
+#sys.path.append('/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/main/scripts/d:/Users/kartik.kaul/Rakuten-Books/repositories/osheen/work/repositories/DARP_Project_Main/packages/pyomo/environ')
+
+sys.path.append("C:\\Users\\lenovo\\Anaconda3\\pkgs\\pyomo-5.6.8-py37_0\Lib\\site-packages\\pyomo")
 
 # since we have included pyomo in the sys path
 # we are importing the all files from pyomo
