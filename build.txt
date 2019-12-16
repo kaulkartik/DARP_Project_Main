@@ -1,0 +1,60 @@
+--------------------------------------------------
+---------- Python Installation -------------------
+
+# Download python for windows 64
+https://www.python.org/downloads/windows/
+
+# Update the path variable 
+# (Python_bin} -> bin directory in the python download folder
+set PATH=%PATH%;(Python_bin}
+
+--------------------------------------------------
+
+--------------------------------------------------
+---------- Anaconda + Pyomo Installation ---------
+
+# download the anaconda from here 
+https://www.anaconda.com/distribution/#download-section
+
+# Export the conda bin to path variable 
+set PATH=%PATH%;C:\Users\lenovo\Anaconda3\condabin
+
+# conda Install Pyomo
+conda install -c conda-forge pyomo
+
+# conda Install Poyomo extras
+conda install -c conda-forge pyomo.extras
+conda install -c conda-forge ipopt coincbc glpk
+--------------------------------------------------
+
+--------------------------------------------------
+----------------Download from GIT-----------------
+
+# Chnage the drive
+E:
+
+# make work dir
+mkdir DARP PROJECT
+
+# Download from git 
+
+git clone https://github.com/kaulkartik/DARP_Project_Main.git
+
+cd DARP_Project_Main
+
+git status
+
+# change the folder to python script folder and check the contents 
+cd E:\DARP PROJECT\DARP_Project_Main\main\scripts
+
+--------------------------------------------------
+---------- Script Execution ----------------------
+# Chnage the drive
+E:
+
+# change the folder to python script folder
+cd E:\DARP PROJECT\DARP_Project_Main\main\scripts
+
+# run the script 
+python DARPGeneral.py
+--------------------------------------------
