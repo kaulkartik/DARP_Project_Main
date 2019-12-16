@@ -47,6 +47,33 @@ git status
 # change the folder to python script folder and check the contents 
 cd E:\DARP PROJECT\DARP_Project_Main\main\scripts
 
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+    OPTIONAL | THIS PROCEDURE IS NOT FOR FIRT TIME 
+    INSTALLATION . FOLLOW THIS TO UPDATE PROJECT
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+    --------------------------------------------------
+    ----------------Pulling updates from GIT----------
+    # Chnage the drive
+    E:
+
+    # change the folder to python script folder
+    cd E:\DARP PROJECT\DARP_Project_Main
+
+    # reset hard to point to latest in git repo 
+    # or you may stash also
+    git reset --hard head 
+    or
+    git stash
+
+    # Pull the latest update from git
+    git pull -f
+    --------------------------------------------------
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
 --------------------------------------------------
 ---------- Script Execution ----------------------
 # Chnage the drive
